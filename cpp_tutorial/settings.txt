@@ -1,0 +1,12 @@
+
+1. vs setting file: http://thecherno.com/vs
+configuration: tools/import and export
+
+2. project config:
+项目\属性：配置中间目录和输出目录
+输出目录：$(SolutionDir)bin\$(Platform)\$(Configuration)\
+中间目录：$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
+配置完成后，清理工程，删除文件，编译
+
+宏的含义：下拉编辑\宏 搜索
+
