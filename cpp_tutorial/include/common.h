@@ -2,5 +2,6 @@
 #define COMMON_H
 // common head file
 void test_enum();
+void test_life_time();
 
 #endif
