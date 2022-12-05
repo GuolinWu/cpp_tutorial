@@ -3,10 +3,15 @@
 configuration: tools/import and export
 
 2. project config:
-ÏîÄ¿\ÊôÐÔ£ºÅäÖÃÖÐ¼äÄ¿Â¼ºÍÊä³öÄ¿Â¼
-Êä³öÄ¿Â¼£º$(SolutionDir)bin\$(Platform)\$(Configuration)\
-ÖÐ¼äÄ¿Â¼£º$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
-ÅäÖÃÍê³Éºó£¬ÇåÀí¹¤³Ì£¬É¾³ýÎÄ¼þ£¬±àÒë
+é¡¹ç›®\å±žæ€§ï¼šé…ç½®ä¸­é—´ç›®å½•å’Œè¾“å‡ºç›®å½•
+è¾“å‡ºç›®å½•ï¼š$(SolutionDir)bin\$(Platform)\$(Configuration)\
+ä¸­é—´ç›®å½•ï¼š$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
+é…ç½®å®ŒæˆåŽï¼Œæ¸…ç†å·¥ç¨‹ï¼Œåˆ é™¤æ–‡ä»¶ï¼Œç¼–è¯‘
 
-ºêµÄº¬Òå£ºÏÂÀ­±à¼­\ºê ËÑË÷
+å®çš„å«ä¹‰ï¼šä¸‹æ‹‰ç¼–è¾‘\å® æœç´¢
 
+
+3. åº“é“¾æŽ¥
+3.1 additional include: property->c/c++->general->Additional Inlcude Directories: $(SolutionDir)path
+3.2 additional library: property->linker->general->Additional Library Directories: $(SolutionDir)path
+3.3 additional Dependencies: property->Linker->Input->Additional Dependencies: lib name
