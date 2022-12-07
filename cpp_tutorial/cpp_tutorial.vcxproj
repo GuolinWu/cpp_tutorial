@@ -74,6 +74,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="src\basic.cpp" />
     <ClCompile Include="src\enum.cpp" />
+    <ClCompile Include="src\life_time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="settings.txt" />
