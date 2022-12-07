@@ -27,6 +27,9 @@
     <ClCompile Include="src\life_time.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\pointer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="settings.txt" />

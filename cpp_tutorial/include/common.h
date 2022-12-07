@@ -3,5 +3,5 @@
 // common head file
 void test_enum();
 void test_life_time();
-
+void test_pointer();
 #endif
