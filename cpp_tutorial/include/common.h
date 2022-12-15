@@ -4,4 +4,5 @@
 void test_enum();
 void test_life_time();
 void test_pointer();
+void test_func_pointer();
 #endif
